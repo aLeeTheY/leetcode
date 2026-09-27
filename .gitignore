@@ -1,0 +1,41 @@
+# CMake Output & Build Directories
+/out/
+/build/
+/bin/
+/lib/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake-build-/
+/Makefile
+/.cmake
+!/CMakeLists.txt
+
+# IDE / Editor Specific Files
+/.vs/
+/.vscode/*
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/settings.json
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+/.idea/
+
+# Compiled Binaries & Objects
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.pdb
+*.ilk
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
