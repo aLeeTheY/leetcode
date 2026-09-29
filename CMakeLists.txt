@@ -12,10 +12,12 @@ endif()
 project ("leetcode")
 
 # Add source to this project's executable.
+add_executable (7_reverse_integer "7_reverse_integer/main.cpp")
 add_executable (9_palindrome "9_palindrome/main.cpp")
 add_executable (13_roman_to_integer "13_roman_to_integer/main.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET 7_reverse_integer PROPERTY CXX_STANDARD 20)
   set_property(TARGET 9_palindrome PROPERTY CXX_STANDARD 20)
   set_property(TARGET 13_roman_to_integer PROPERTY CXX_STANDARD 20)
 endif()
