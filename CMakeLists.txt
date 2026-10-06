@@ -16,12 +16,14 @@ add_executable (7_reverse_integer "7_reverse_integer/main.cpp")
 add_executable (9_palindrome "9_palindrome/main.cpp")
 add_executable (13_roman_to_integer "13_roman_to_integer/main.cpp")
 add_executable (14_longest_common_prefix "14_longest_common_prefix/main.cpp")
+add_executable (20_valid_parentheses "20_valid_parentheses/main.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET 7_reverse_integer PROPERTY CXX_STANDARD 20)
   set_property(TARGET 9_palindrome PROPERTY CXX_STANDARD 20)
   set_property(TARGET 13_roman_to_integer PROPERTY CXX_STANDARD 20)
   set_property(TARGET 14_longest_common_prefix PROPERTY CXX_STANDARD 20)
+  set_property(TARGET 20_valid_parentheses PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: Add tests and install targets if needed.
